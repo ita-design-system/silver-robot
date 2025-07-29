@@ -1,0 +1,19 @@
+{
+  "allowedTypes": null,
+  "dir": "/mycoll",
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": false,
+  "schemas": [
+    "/.mattrbld/schemas/pages/pages.json"
+  ],
+  "linkable": false,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "type": "json",
+  "urlTemplate": ""
+}
