@@ -5,7 +5,13 @@
   "name": "silver-robot",
   "sidebar": [
     {
-      "label": "The sidebar has not yet been configured for this project"
+      "label": "My Coll",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/mycoll.json"
+        }
+      }
     },
     {
       "icon": "wrench-and-driver",
@@ -16,7 +22,8 @@
           "tab": "sidebar"
         }
       },
-      "onlyPrivileged": true
+      "onlyPrivileged": true,
+      "showInDashboard": false
     },
     {
       "separator": true
