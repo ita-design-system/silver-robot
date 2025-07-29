@@ -1,0 +1,128 @@
+{
+  "autoquotes": null,
+  "brandColors": [],
+  "corsProxy": "/corsprox",
+  "name": "silver-robot",
+  "sidebar": [
+    {
+      "label": "The sidebar has not yet been configured for this project"
+    },
+    {
+      "icon": "wrench-and-driver",
+      "label": "Configure now",
+      "target": {
+        "name": "Project.Settings",
+        "query": {
+          "tab": "sidebar"
+        }
+      },
+      "onlyPrivileged": true
+    },
+    {
+      "separator": true
+    },
+    {
+      "label": "Dashboard",
+      "icon": "grid",
+      "target": {
+        "name": "Project"
+      },
+      "protected": true
+    },
+    {
+      "label": "Media Library",
+      "icon": "image-stack",
+      "target": {
+        "name": "Project.MediaLibrary"
+      },
+      "protected": true
+    },
+    {
+      "label": "Settings",
+      "icon": "settings",
+      "target": {
+        "name": "Project.Settings"
+      },
+      "onlyPrivileged": true,
+      "protected": true
+    }
+  ],
+  "slugifyOptions": {
+    "lowercase": true
+  },
+  "customRoles": [],
+  "draftsDir": "/.mattrbld/drafts",
+  "previewUrl": null,
+  "languages": [],
+  "media": {
+    "advanced": true,
+    "customFields": [
+      {
+        "type": "text",
+        "default": null,
+        "icon": "text-input",
+        "key": "alt",
+        "label": "Alternative Text",
+        "localised": false,
+        "options": {
+          "wrapping": true,
+          "multiline": false
+        },
+        "validation": {
+          "enforceMinMax": true,
+          "max": null,
+          "min": null,
+          "regex": null,
+          "regexError": null,
+          "required": false,
+          "unit": "length"
+        },
+        "value": null,
+        "version": 1,
+        "visibility": {
+          "hidden": false,
+          "showByValue": {
+            "field": null
+          }
+        }
+      },
+      {
+        "type": "text",
+        "default": null,
+        "icon": "text-input",
+        "key": "title",
+        "label": "Title",
+        "localised": false,
+        "options": {
+          "wrapping": true,
+          "multiline": false
+        },
+        "validation": {
+          "enforceMinMax": true,
+          "max": null,
+          "min": null,
+          "regex": null,
+          "regexError": null,
+          "required": false,
+          "unit": "length"
+        },
+        "value": null,
+        "version": 1,
+        "visibility": {
+          "hidden": false,
+          "showByValue": {
+            "field": null
+          }
+        }
+      }
+    ],
+    "dir": "/uploads",
+    "maxSize": null,
+    "outputPath": null,
+    "permissions": {
+      "everybody": [
+        "everything"
+      ]
+    }
+  }
+}

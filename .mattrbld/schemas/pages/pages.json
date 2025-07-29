@@ -1,0 +1,140 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "default": "Lorem ipsum title",
+      "icon": "text-input",
+      "key": "title",
+      "label": "Title",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "First Page",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": true,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "text",
+      "default": "Lorem ipsum dolor",
+      "icon": "text-input",
+      "key": "description",
+      "label": "Description",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "First Page",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "rich text",
+      "default": "<p>This is awesome</p>",
+      "icon": "text",
+      "key": "content",
+      "label": "HTML Content",
+      "localised": false,
+      "options": {
+        "outputFormat": "html",
+        "blockFormats": [
+          "blockquote",
+          "heading",
+          "hr",
+          "orderedList",
+          "unorderedList",
+          "image"
+        ],
+        "inlineFormats": [
+          "em",
+          "strong",
+          "link"
+        ],
+        "formatOptions": [
+          "allowQuoteFooters",
+          "allowNestedLists",
+          "allowImageCaptions"
+        ],
+        "inputRuleOptions": [
+          "autoquotes",
+          "dashes",
+          "ellipsis",
+          "noDoubleCaps",
+          "noDoubleSpace"
+        ],
+        "minHeading": 2,
+        "maxHeading": 4,
+        "codeLangs": [
+          "html",
+          "css",
+          "javascript",
+          "markdown"
+        ],
+        "allowRaw": false,
+        "urlTemplate": "",
+        "urlSuffix": "",
+        "linkOptions": [
+          "forceBlankTarget",
+          "allowExternal",
+          "allowInternal"
+        ]
+      },
+      "tab": "First Page",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "First Page",
+      "groupAs": null
+    }
+  ]
+}
