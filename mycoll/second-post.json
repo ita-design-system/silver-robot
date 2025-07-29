@@ -1,0 +1,6 @@
+{
+  "title": "My second post",
+  "description": "Lorem ipsum dolor second post",
+  "content": "<p>This <strong>is</strong> awesome</p><figure><img alt=\"alt text\" src=\"/uploads/bricss-og-image.png\" title=\"title\"><figcaption>This is a caption</figcaption></figure><p>qdsqdsqd</p>",
+  "___mb_schema": "/.mattrbld/schemas/pages/pages.json"
+}
