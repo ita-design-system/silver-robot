@@ -11,19 +11,8 @@
         "params": {
           "path": "/.mattrbld/collections/mycoll.json"
         }
-      }
-    },
-    {
-      "icon": "wrench-and-driver",
-      "label": "Configure now",
-      "target": {
-        "name": "Project.Settings",
-        "query": {
-          "tab": "sidebar"
-        }
       },
-      "onlyPrivileged": true,
-      "showInDashboard": false
+      "showInDashboard": true
     },
     {
       "separator": true
@@ -52,6 +41,18 @@
       },
       "onlyPrivileged": true,
       "protected": true
+    },
+    {
+      "separator": true,
+      "target": {
+        "name": "Edit Content",
+        "params": {
+          "collection": "mycoll.json",
+          "path": "/mycoll/first-collection.json"
+        }
+      },
+      "icon": "attachment",
+      "label": "First coll"
     }
   ],
   "slugifyOptions": {

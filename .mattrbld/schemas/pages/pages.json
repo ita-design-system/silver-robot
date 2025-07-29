@@ -61,6 +61,36 @@
       }
     },
     {
+      "type": "image",
+      "default": {
+        "src": "/uploads/capture.png",
+        "alt": null,
+        "title": null
+      },
+      "icon": "image",
+      "key": "image",
+      "label": "Image",
+      "options": {
+        "resolutionHint": "",
+        "removable": true,
+        "simple": false
+      },
+      "tab": "Second tab",
+      "validation": {
+        "max": null,
+        "required": false,
+        "unit": "filesize (MB)"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
       "type": "rich text",
       "default": "<p>This is awesome</p>",
       "icon": "text",
@@ -129,11 +159,172 @@
           "field": null
         }
       }
+    },
+    {
+      "type": "columns",
+      "default": null,
+      "icon": "columns",
+      "key": "columns",
+      "label": "Columns",
+      "options": {
+        "allowEditing": true,
+        "itemLabel": "Column"
+      },
+      "tab": "First Page",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "columns"
+      },
+      "value": [
+        {
+          "type": "image",
+          "default": null,
+          "icon": "image",
+          "key": "image",
+          "label": "Image",
+          "options": {
+            "resolutionHint": "",
+            "removable": true,
+            "simple": false
+          },
+          "tab": "First Page",
+          "validation": {
+            "max": null,
+            "required": false,
+            "unit": "filesize (MB)"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "text",
+          "default": null,
+          "icon": "text-input",
+          "key": "text",
+          "label": "Unformatted Text",
+          "localised": false,
+          "options": {
+            "wrapping": true,
+            "multiline": false
+          },
+          "tab": "First Page",
+          "validation": {
+            "enforceMinMax": true,
+            "max": null,
+            "min": null,
+            "regex": null,
+            "regexError": null,
+            "required": false,
+            "unit": "length"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "rows",
+      "default": null,
+      "icon": "rows",
+      "key": "rows",
+      "label": "Rows",
+      "options": {
+        "compact": true,
+        "allowEditing": true,
+        "itemLabel": "Row"
+      },
+      "tab": "First Page",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "rows"
+      },
+      "value": [
+        {
+          "type": "image",
+          "default": null,
+          "icon": "image",
+          "key": "image",
+          "label": "Image",
+          "options": {
+            "resolutionHint": "",
+            "removable": true,
+            "simple": false
+          },
+          "tab": "First Page",
+          "validation": {
+            "max": null,
+            "required": false,
+            "unit": "filesize (MB)"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "number",
+          "default": null,
+          "icon": "number",
+          "key": "number",
+          "label": "Number",
+          "localised": false,
+          "tab": "First Page",
+          "validation": {
+            "max": null,
+            "min": null,
+            "required": false
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
     }
   ],
   "tabs": [
     {
       "label": "First Page",
+      "groupAs": null
+    },
+    {
+      "label": "Second tab",
       "groupAs": null
     }
   ]
