@@ -5,6 +5,23 @@
   "name": "silver-robot",
   "sidebar": [
     {
+      "icon": null,
+      "label": "label 1",
+      "target": null
+    },
+    {
+      "separator": true,
+      "target": {
+        "name": "Edit Content",
+        "params": {
+          "collection": "mycoll.json",
+          "path": "/mycoll/first-collection.json"
+        }
+      },
+      "icon": "attachment",
+      "label": "First coll"
+    },
+    {
       "label": "My Coll",
       "target": {
         "name": "Project.Collection",
@@ -41,18 +58,6 @@
       },
       "onlyPrivileged": true,
       "protected": true
-    },
-    {
-      "separator": true,
-      "target": {
-        "name": "Edit Content",
-        "params": {
-          "collection": "mycoll.json",
-          "path": "/mycoll/first-collection.json"
-        }
-      },
-      "icon": "attachment",
-      "label": "First coll"
     }
   ],
   "slugifyOptions": {
