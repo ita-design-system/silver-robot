@@ -1,0 +1,11 @@
+{
+  "titre": "Lorem ipsums",
+  "description": "Lorem ipsum dolor",
+  "image": {
+    "src": "/uploads/skoda-ecom-logo.svg",
+    "alt": null,
+    "title": null
+  },
+  "file": null,
+  "___mb_schema": "/.mattrbld/schemas/schemas/cars.json"
+}

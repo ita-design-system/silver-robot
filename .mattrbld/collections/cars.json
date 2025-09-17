@@ -3,7 +3,7 @@
   "defaultFilename": null,
   "dir": "/collections",
   "disableComments": true,
-  "disablePreview": true,
+  "disablePreview": false,
   "draftByDefault": false,
   "schemas": [
     "/.mattrbld/schemas/schemas/cars.json"
