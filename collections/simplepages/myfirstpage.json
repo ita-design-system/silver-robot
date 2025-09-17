@@ -1,0 +1,18 @@
+{
+  "title": "Mon Titre de la page",
+  "description": "ma description",
+  "og-image": {
+    "src": "/uploads/bricss-og-image.png",
+    "alt": "alt text",
+    "title": "title",
+    "width": null,
+    "height": null,
+    "loading": null,
+    "decoding": null
+  },
+  "cars": [
+    "/collections/cars/first.json",
+    "/collections/cars/second.json"
+  ],
+  "___mb_schema": "/.mattrbld/schemas/schemas/simplepage.json"
+}

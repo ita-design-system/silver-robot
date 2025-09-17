@@ -1,0 +1,20 @@
+{
+  "allowedTypes": null,
+  "defaultFilename": null,
+  "dir": "/collections/simplepages",
+  "disableComments": false,
+  "disablePreview": false,
+  "draftByDefault": false,
+  "schemas": [
+    "/.mattrbld/schemas/schemas/simplepage.json"
+  ],
+  "linkable": false,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "type": "json",
+  "urlTemplate": ""
+}

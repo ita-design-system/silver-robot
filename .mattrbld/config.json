@@ -18,6 +18,16 @@
       "target": {
         "name": "Project.Collection",
         "params": {
+          "path": "/.mattrbld/collections/simplepages.json"
+        }
+      },
+      "label": "Pages simples"
+    },
+    {
+      "separator": true,
+      "target": {
+        "name": "Project.Collection",
+        "params": {
           "path": "/.mattrbld/collections/cars.json"
         }
       },
