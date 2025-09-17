@@ -100,7 +100,7 @@
       "options": {
         "removable": false,
         "allowUpload": false,
-        "root": null,
+        "root": "/uploads",
         "filetypes": [
           "pdf",
           "zip"
