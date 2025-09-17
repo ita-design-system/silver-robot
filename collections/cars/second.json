@@ -1,0 +1,15 @@
+{
+  "titre": "Lorem ipsum2",
+  "description": "Lorem ipsum dolor",
+  "image": {
+    "src": "/uploads/bricss-og-image.png",
+    "alt": "alt text",
+    "title": "title",
+    "width": null,
+    "height": null,
+    "loading": null,
+    "decoding": null
+  },
+  "file": null,
+  "___mb_schema": "/.mattrbld/schemas/schemas/cars.json"
+}
