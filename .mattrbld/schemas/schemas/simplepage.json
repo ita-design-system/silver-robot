@@ -125,32 +125,6 @@
       }
     },
     {
-      "type": "link",
-      "default": null,
-      "icon": "link",
-      "key": "link",
-      "label": "Link",
-      "localised": false,
-      "options": {
-        "type": "internal",
-        "byFilePath": false,
-        "urlSuffix": "/",
-        "urlTemplate": ""
-      },
-      "tab": "Untitled Tab",
-      "validation": {
-        "required": false
-      },
-      "value": null,
-      "version": 1,
-      "visibility": {
-        "hidden": false,
-        "showByValue": {
-          "field": null
-        }
-      }
-    },
-    {
       "type": "rows",
       "default": null,
       "icon": "rows",
