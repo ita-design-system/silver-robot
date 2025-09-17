@@ -1,0 +1,13 @@
+{
+  "title": "Ma deuxième page",
+  "description": "Decgdjsqjflkqj",
+  "og-image": {
+    "src": "/uploads/capture.png",
+    "alt": "aazf",
+    "title": null
+  },
+  "cars": [
+    "/collections/cars/second.json"
+  ],
+  "___mb_schema": "/.mattrbld/schemas/schemas/simplepage.json"
+}
