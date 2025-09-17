@@ -1,0 +1,11 @@
+{
+  "titre": "Lorem ipsum",
+  "description": "Lorem ipsum dolor",
+  "image": {
+    "src": "/uploads/capture.png",
+    "alt": null,
+    "title": null
+  },
+  "file": null,
+  "___mb_schema": "/.mattrbld/schemas/schemas/cars.json"
+}
