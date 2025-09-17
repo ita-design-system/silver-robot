@@ -14,9 +14,16 @@
   "name": "silver-robot",
   "sidebar": [
     {
-      "icon": null,
-      "label": "label 1",
-      "target": null
+      "separator": true,
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/cars.json"
+        }
+      },
+      "label": "Cars",
+      "icon": "rocket",
+      "showInDashboard": true
     },
     {
       "separator": true
