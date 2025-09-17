@@ -4,10 +4,16 @@
   "og-image": {
     "src": "/uploads/capture.png",
     "alt": "aazf",
-    "title": null
+    "title": "title",
+    "width": null,
+    "height": null,
+    "loading": null,
+    "decoding": null
   },
   "cars": [
     "/collections/cars/second.json"
   ],
-  "___mb_schema": "/.mattrbld/schemas/schemas/simplepage.json"
+  "___mb_schema": "/.mattrbld/schemas/schemas/simplepage.json",
+  "slug": "ma-2e-page",
+  "link": "/simplepages/mysecondpage/"
 }

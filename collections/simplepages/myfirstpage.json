@@ -14,5 +14,7 @@
     "/collections/cars/first.json",
     "/collections/cars/second.json"
   ],
-  "___mb_schema": "/.mattrbld/schemas/schemas/simplepage.json"
+  "___mb_schema": "/.mattrbld/schemas/schemas/simplepage.json",
+  "slug": "ma-premiere-page",
+  "link": "/simplepages/myfirstpage/"
 }
