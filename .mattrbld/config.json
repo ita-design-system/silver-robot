@@ -1,6 +1,15 @@
 {
   "autoquotes": null,
-  "brandColors": [],
+  "brandColors": [
+    {
+      "label": "brand-100",
+      "value": "rgba(93, 58, 58, 0)"
+    },
+    {
+      "label": "brand-200",
+      "value": "rgba(157, 28, 28, 0)"
+    }
+  ],
   "corsProxy": "/corsprox",
   "name": "silver-robot",
   "sidebar": [
@@ -8,28 +17,6 @@
       "icon": null,
       "label": "label 1",
       "target": null
-    },
-    {
-      "separator": true,
-      "target": {
-        "name": "Edit Content",
-        "params": {
-          "collection": "mycoll.json",
-          "path": "/mycoll/first-collection.json"
-        }
-      },
-      "icon": "attachment",
-      "label": "First coll"
-    },
-    {
-      "label": "My Coll",
-      "target": {
-        "name": "Project.Collection",
-        "params": {
-          "path": "/.mattrbld/collections/mycoll.json"
-        }
-      },
-      "showInDashboard": true
     },
     {
       "separator": true
