@@ -1,0 +1,20 @@
+{
+  "allowedTypes": [],
+  "defaultFilename": null,
+  "dir": "/data",
+  "disableComments": true,
+  "disablePreview": true,
+  "draftByDefault": false,
+  "schemas": [
+    "/.mattrbld/schemas/schemas/cars.json"
+  ],
+  "linkable": true,
+  "maxSize": null,
+  "permissions": {
+    "everybody": [
+      "everything"
+    ]
+  },
+  "type": "json",
+  "urlTemplate": "/:filepath.content\\.:fileExtension"
+}

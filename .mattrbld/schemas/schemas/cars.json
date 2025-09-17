@@ -1,0 +1,131 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "default": "Lorem ipsum",
+      "icon": "text-input",
+      "key": "titre",
+      "label": "Titre",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "Main",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": true,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "text",
+      "default": "Lorem ipsum dolor",
+      "icon": "text-input",
+      "key": "description",
+      "label": "Description",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "Main",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": true,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "image",
+      "default": {
+        "src": "/uploads/skoda-ecom-logo.svg",
+        "alt": null,
+        "title": null
+      },
+      "icon": "image",
+      "key": "image",
+      "label": "Image",
+      "options": {
+        "resolutionHint": "",
+        "removable": true,
+        "simple": false
+      },
+      "tab": "Main",
+      "validation": {
+        "max": null,
+        "required": true,
+        "unit": "filesize (MB)"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "file",
+      "default": null,
+      "icon": "attachment",
+      "key": "file",
+      "label": "File",
+      "localised": false,
+      "options": {
+        "removable": false,
+        "allowUpload": false,
+        "root": null,
+        "filetypes": [
+          "pdf",
+          "zip"
+        ]
+      },
+      "tab": "Main",
+      "validation": {
+        "max": null,
+        "required": false,
+        "unit": "filesize (MB)"
+      },
+      "value": null,
+      "version": 2,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "Main",
+      "groupAs": null
+    }
+  ]
+}
