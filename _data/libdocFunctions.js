@@ -247,7 +247,7 @@ export default {
             if (isSystemIcon) {
                 markup = `<span class="icon-${iconName} fs-${dsFontSize}"></span>`;
             } else {
-                markup = `<span class="icon- fs-${dsFontSize}" style="mask-image: url('${libdocConfig.htmlBasePathPrefix}${iconName}}')"></span>`;
+                markup = `<span class="icon- fs-${dsFontSize}" style="mask-image: url('${libdocConfig.htmlBasePathPrefix}${iconName}')"></span>`;
             }
             return markup;
         },
