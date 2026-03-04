@@ -35,7 +35,7 @@ jobs:
         run: npm ci
 
       - name: Build with Eleventy
-        run: npm run build  # make sure this matches your package.json build script
+        run: npx @11ty/eleventy  # make sure this matches your package.json build script
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
